@@ -1,0 +1,36 @@
+/* General styling for the settings page */
+.wrap {
+    font-family: Arial, sans-serif;
+}
+
+button.button-primary {
+    background-color: #0073aa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.button-primary:hover {
+    background-color: #005f8d;
+}
+
+/* Table styles for CPT and Taxonomy tables */
+.form-table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+th {
+    width: 30%;
+}
+
+td input {
+    width: 100%;
+    padding: 6px;
+}
+
+h3 {
+    margin-top: 40px;
+}
